@@ -17,10 +17,10 @@ This page captures all the known issues of classic RN BM devices.
           <td> RN487x</td>
           <td>Firmware</td>
           <td>RN487x temperature sensor read failure</td>
-          <td> Background Details: Command @ reads one of the analog channels and returns the analog values in 16-bit hex format. The command @ expects one input parameter which is the analog channel in a single digit format. Analog part parameter 5 is related to Temperature sensor. The @,5 reads the internal PTS temperature sensor data\ 
+          <td> Background Details: Command @ reads one of the analog channels and returns the analog values in 16-bit hex format. The command @ expects one input parameter which is the analog channel in a single digit format. Analog part parameter 5 is related to Temperature sensor. The @,5 reads the internal PTS temperature sensor data 
             
             
-Issue: Currently for V1.42 and prior firmware versions, the @,5 command response data is not accurate. This is due to the failure in ADC read\ 
+Issue: Currently for V1.42 and prior firmware versions, the @,5 command response data is not accurate. This is due to the failure in ADC read 
 
             
 Solution: This issue can be resolved by making a fix in the firmware. 
